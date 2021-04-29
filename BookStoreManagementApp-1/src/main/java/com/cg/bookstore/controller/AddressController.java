@@ -28,4 +28,5 @@ public class AddressController {
 		logger.info("New address added");
 		return new ResponseEntity<Object>(addressData, HttpStatus.OK);
 	}
+	
 }
